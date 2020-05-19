@@ -1,0 +1,16 @@
+from tkinter import *
+
+imaginary_tech_root = Tk()
+
+#  WIDTH X HEIGHT
+imaginary_tech_root.geometry("733x434")
+
+#width,height
+imaginary_tech_root.minsize(200,100)
+#width,height
+imaginary_tech_root.maxsize(1200,988)
+
+ARSH = Label(text="ARSH is a good Boy & This is his GUI")
+ARSH.pack()
+
+imaginary_tech_root.mainloop()
