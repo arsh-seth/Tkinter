@@ -12,7 +12,7 @@ ARSH.pack()
 # For Jpg Images
 
 
-image = Image.open("photo.jpg.jpg")
+image = Image.open("photo.jpg.jpg")    # use any photo namely photo.jpg.jpg or of your choice
 photo = ImageTk.PhotoImage(image)
 
 arsh_label = Label(image=photo)
